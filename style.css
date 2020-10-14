@@ -271,6 +271,16 @@ footer {
 }
 
 @media screen and (max-width: 925px) {
+  nav {
+    display: block;
+  }
+  nav > img {
+    display: block;
+    margin: 0 auto;
+  }
+  .first {
+    margin-top: 0;
+  }
   .best {
     align-items: center;
     flex-direction: column;
@@ -282,6 +292,9 @@ footer {
   .best__right > h1 {
     text-align: center;
   }
+  .best__right > p {
+    text-align: center;
+  }
   .second {
     height: 250px;
   }
@@ -290,7 +303,11 @@ footer {
     padding: 0;
     display: block;
   }
-  .btn_first,
-  .btn_second {
+  .services {
+    flex-direction: column;
+  }
+  .persons {
+    flex-direction: column;
+    align-items: center;
   }
 }
