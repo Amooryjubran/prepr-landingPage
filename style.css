@@ -9,6 +9,10 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 nav > ul {
   text-decoration: none;
