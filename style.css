@@ -58,7 +58,7 @@ strong {
   margin-top: 270px;
   border: 1px solid lightgrey;
   height: 320px;
-  min-width: 350px;
+  min-width: 450px;
   text-align: center;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.295);
@@ -191,7 +191,7 @@ btn-demo:focus {
   box-shadow: 0 2px 3rem rgba(0, 0, 0, 0.3);
 }
 .subscribe a {
-  width: 150px;
+  width: 250px;
   display: block;
   color: white !important;
   background: #5091f9;
