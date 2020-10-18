@@ -27,11 +27,11 @@ nav > ul > li {
   cursor: pointer;
 }
 nav > img {
-  height: 60px;
+  height: 40px;
 }
 
 .banner {
-  background-image: url("./heroshotwhitespace\ \(2\).png");
+  background-image: url("./assests/heroshotwhitespace\ \(2\).png");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -56,9 +56,10 @@ strong {
 
 .second {
   margin-top: 270px;
-  border: 1px solid lightgrey;
+  box-shadow: 0 2px 3rem rgba(0, 0, 0, 0.1);
+
   height: 320px;
-  min-width: 450px;
+  min-width: 350px;
   text-align: center;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.295);
@@ -191,7 +192,7 @@ btn-demo:focus {
   box-shadow: 0 2px 3rem rgba(0, 0, 0, 0.3);
 }
 .subscribe a {
-  width: 250px;
+  width: 150px;
   display: block;
   color: white !important;
   background: #5091f9;
